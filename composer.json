@@ -1,0 +1,14 @@
+{
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
+    "require": {
+        "symfony/http-foundation": "^6.2",
+        "symfony/var-dumper": "^6.2",
+        "illuminate/database": "^10.12",
+        "illuminate/container": "^10.12",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
