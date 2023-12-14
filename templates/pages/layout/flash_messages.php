@@ -1,9 +1,10 @@
 <?php
-if (isset($exception)) { ?>
+if (isset($_SESSION['error_message'])) { ?>
     <div class="flash_message_error">
-        <p><?=$exception?></p>
+        <p><?=$_SESSION['error_message']?></p>
     </div>
 <?php }
+    unset($_SESSION['error_message']);
 ?>
 
 <?php

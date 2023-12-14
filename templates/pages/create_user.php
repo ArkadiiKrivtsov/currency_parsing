@@ -1,5 +1,5 @@
 <?php
-require_once APP_DIR . '/src/user_creation_logic.php';
+//require_once APP_DIR . '/src/user_creation_logic.php';
 ?>
 
 <!doctype html>
@@ -17,7 +17,7 @@ require_once APP_DIR . '/src/user_creation_logic.php';
 <body>
 <!--Подключаем флеш сообщения-->
 <?php
-require_once APP_DIR . PAGE_DIR . 'layout/flash_messages.php';
+//require_once APP_DIR . PAGE_DIR . 'layout/flash_messages.php';
 ?>
 
 
@@ -37,12 +37,11 @@ require_once APP_DIR . PAGE_DIR . 'layout/flash_messages.php';
         <input type="password" name="confirm_password" required >
 
         <div class="create_user_button_block">
-            <button class="create_user_button" type="submit" name="create_submit">Добавить</button>
-            <button class="create_user_button" onclick="window.location.href = '/users';" name="redirect">Назад</button>
+            <button class="user_button" type="submit" name="create_submit">Зарегистрироваться</button>
+            <button class="user_button" onclick="window.location.href = '/';" name="redirect">Назад</button>
         </div>
 
     </form>
-
 </div>
 
 </body>
