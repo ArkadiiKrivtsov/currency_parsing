@@ -1,0 +1,147 @@
+.auth_block {
+    width: 500px;
+    height: 400px;
+    margin: 5% auto;
+    border: 1px solid black;
+}
+
+.auth_block_head {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.auth_block label {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.auth_block input {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: 45px;
+    border: 2px solid darkgray;
+    border-radius: 10px;
+    outline: none;
+}
+
+.auth_block input:focus {
+    border-radius: 10px;
+    border: 2px solid blue;
+}
+
+.create_user_block {
+    width: 500px;
+    height: 550px;
+    margin: 5% auto;
+    border: 1px solid black;
+}
+
+.create_user_block p {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.create_user_block label {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.create_user_block input {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: 45px;
+    border: 2px solid darkgray;
+    border-radius: 10px;
+    outline: none;
+}
+
+.create_user_block input:focus {
+    border-radius: 10px;
+    border: 2px solid blue;
+}
+
+.user_button {
+    width: 35%;
+    border-radius: 30px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+}
+
+.user_button:hover {
+    border: 2px solid blue;
+}
+
+.create_user_button_block {
+    display: block;
+    margin-left: 22%;
+    margin-top: 5%;
+}
+
+.error_404 {
+    display: flex;
+    flex-direction: column;
+    font-family: "Book Antiqua";
+    margin: 0 auto;
+    text-align: center;
+    font-size: xxx-large;
+}
+
+.error_404 img {
+    padding-left: 45%;
+}
+
+.flash_message_error {
+    width: 500px;
+    font-size: larger;
+    text-align: center;
+    background-color: lightcoral;
+    margin-left: 31%;
+}
+
+.flash_message_success {
+    width: 500px;
+    font-size: larger;
+    text-align: center;
+    background-color: lightgreen;
+    margin-left: 31%;
+}
+
+.currencies_table {
+    width: 700px;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding-top: 5%;
+    font-weight: normal;
+    border-collapse: collapse;
+}
+
+.currencies_table th, .currencies_table td {
+    border: 1px solid grey;
+    width: 680px;
+    padding: 10px;
+}
+
+.currencies_table td {
+    text-align: center;
+}
+
+.logout {
+    margin-left: 70%;
+    margin-bottom: 5%;
+    font-weight: bold;
+}
+
+.logout:hover {
+    color: red;
+}
