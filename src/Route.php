@@ -26,6 +26,10 @@ class Route
 
         $controller = new $controllerClass;
 
+        if ($method != 'GET') {
+            return $controller->$method($request);
+        }
+
         return $controller->$method();
     }
 }

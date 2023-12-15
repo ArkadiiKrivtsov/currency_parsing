@@ -116,3 +116,32 @@
     background-color: lightgreen;
     margin-left: 31%;
 }
+
+.currencies_table {
+    width: 700px;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding-top: 5%;
+    font-weight: normal;
+    border-collapse: collapse;
+}
+
+.currencies_table th, .currencies_table td {
+    border: 1px solid grey;
+    width: 680px;
+    padding: 10px;
+}
+
+.currencies_table td {
+    text-align: center;
+}
+
+.logout {
+    margin-left: 70%;
+    margin-bottom: 5%;
+    font-weight: bold;
+}
+
+.logout:hover {
+    color: red;
+}
